@@ -241,9 +241,7 @@
 .badge-card > div:nth-child(2) span { overflow: hidden; color: var(--muted); font-size: 7px; text-overflow: ellipsis; white-space: nowrap; }
 .badge-status { margin-left: auto; color: var(--faint); font-size: 6px; font-weight: 750; letter-spacing: .55px; }
 .badge-status.earned { color: #b69cff; }
-.dashboard-footer { display: flex; justify-content: space-between; padding: 4px 2px; color: var(--faint); font-size: 8px; }
-.dashboard-footer > span:last-child { font-size: 7px; font-weight: 650; letter-spacing: .9px; }
-.footer-heart { color: #d67eaa; }
+.dashboard-footer { margin-top: 2px; padding: 13px 2px 4px; border-top: 1px solid var(--line-soft); color: var(--muted); font-size: 9px; text-align: center; letter-spacing: .2px; }
 
 .modal-backdrop { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 18px; background: rgba(5,5,10,.69); backdrop-filter: blur(5px); }
 .habit-modal { width: min(100%, 430px); max-height: min(90vh, 680px); overflow: auto; padding: 23px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 13px; background: var(--panel); box-shadow: 0 24px 80px rgba(0,0,0,.35); animation: modal-in .18s ease-out; }
@@ -347,7 +345,7 @@
   .badge-card strong { font-size: 9px; }
   .badge-card > div:nth-child(2) span { font-size: 8px; }
   .badge-status { font-size: 7px; }
-  .dashboard-footer { font-size: 7px; }
+  .dashboard-footer { font-size: 9px; }
 }
 
 @media (max-width: 380px) {

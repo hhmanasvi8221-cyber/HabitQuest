@@ -350,7 +350,7 @@ function App() {
             <div className="badge-grid">{badges.map((badge) => <article key={badge.title} className={`badge-card ${badge.unlocked ? 'unlocked' : ''}`}><div className="badge-icon">{badge.icon}</div><div><strong>{badge.title}</strong><span>{badge.description}</span></div><span className={`badge-status ${badge.unlocked ? 'earned' : ''}`}>{badge.unlocked ? 'EARNED' : 'LOCKED'}</span></article>)}</div>
           </section>
 
-          <footer className="dashboard-footer"><span>Made for your becoming <span className="footer-heart">♥</span></span><span>YOUR JOURNEY, YOUR PACE.</span></footer>
+          <footer className="dashboard-footer">Built with care by Manasvi HH</footer>
         </div>
       </main>
       {modalOpen && <Modal habit={modalHabit} onClose={() => { setModalOpen(false); setModalHabit(null) }} onSave={saveHabit} />}
